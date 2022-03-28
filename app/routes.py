@@ -8,4 +8,4 @@ def home():
 
 @app.route("/temperature_prediction")
 def prediction():
-    return render_template("/prediction.html")
+    return render_template("prediction.html")
